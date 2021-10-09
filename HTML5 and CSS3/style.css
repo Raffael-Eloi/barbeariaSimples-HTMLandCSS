@@ -1,0 +1,66 @@
+/* Formatações gerais */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    background-color: #CCCCCC;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Formatações em divs */
+#banner {
+    padding: 10px;
+}
+
+#div-sobre-barbearia {
+    background-color: #CCCCCC;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#div-beneficios {
+    display: flex;
+    margin-top: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+
+/* Formatações em imagens*/
+.icone-principal {
+    height: 35px;
+}
+.imagem-banner {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imagem-beneficios {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.imagem-beneficios:hover {
+    width: 42%;
+    transition: ease;
+}
+
+/* Formatações em textos*/
+.titulo-principal {
+    margin-left: 20px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.lista-beneficios {
+    font-size: 25px;
+}
+
+.lista-beneficios:hover {
+    font-size: 27px;
+    transition: ease;
+}
